@@ -31,7 +31,8 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER           2
-#define LED_PRIMARY_PIN       _PINNUM(1, 15)
+// Use Keyboard key led as primary
+#define LED_PRIMARY_PIN       _PINNUM(0, 7)
 #define LED_SECONDARY_PIN     _PINNUM(1, 10)
 #define LED_STATE_ON          1
 
@@ -61,8 +62,8 @@
 #define USB_DESC_CDC_ONLY_PID  0x002A
 
 //------------- UF2 -------------//
-#define UF2_PRODUCT_NAME      "Adafruit Feather nRF52840 Express"
-#define UF2_VOLUME_LABEL      "FTHR840BOOT"
+#define UF2_PRODUCT_NAME      "Kinesis BLE Keyboard"
+#define UF2_VOLUME_LABEL      "KinesisBoot"
 #define UF2_BOARD_ID          "nRF52840-Feather-revD"
 #define UF2_INDEX_URL         "https://www.adafruit.com/product/4062"
 

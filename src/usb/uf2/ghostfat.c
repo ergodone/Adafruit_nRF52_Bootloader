@@ -125,9 +125,12 @@ const char indexFile[] =
     "<!doctype html>\n"
     "<html>"
     "<body>"
-    "<script>\n"
-    "location.replace(\"" UF2_INDEX_URL "\");\n"
-    "</script>"
+    "<H1>Kinesis BLE keyboard bootloader</H1>"
+    "<P> <B>Drag the new Kinesis BLE .uf2 firmware file to the drive containing this file to program your keyboard.</B>"
+    "<H2>More Information</H2>"
+    "About the firmware: <a href=\"https://zmkfirmware.dev\"> https://zmkfirmware.dev</a>"
+    "<BR>"
+    "About the Kinesis BLE controller: <a href=\"https://github.com/ergodone/KinesisBLE\"> https://github.com/ergodone/KinesisBLE</a>"
     "</body>"
     "</html>\n";
 
