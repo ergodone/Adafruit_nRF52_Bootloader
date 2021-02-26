@@ -51,8 +51,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER   "Adafruit Industries"
-#define BLEDIS_MODEL          "Feather nRF52840 Express"
+#define BLEDIS_MANUFACTURER   "Kinesis"
+#define BLEDIS_MODEL          "BLE Keyboard"
 
 //--------------------------------------------------------------------+
 // USB
